@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42C7955B-AEE4-4A0A-A369-100EBE38FECC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Word\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="3q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4q.Designer.cs">
+      <DependentUpon>4q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pass.Designer.cs">
+      <DependentUpon>pass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question.cs" />
+    <Compile Include="result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="result.Designer.cs">
+      <DependentUpon>result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>3q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="5q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5q.Designer.cs">
+      <DependentUpon>5q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="6q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="6q.Designer.cs">
+      <DependentUpon>6q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="7q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="7q.Designer.cs">
+      <DependentUpon>7q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="8q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="8q.Designer.cs">
+      <DependentUpon>8q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff.cs" />
+    <Compile Include="start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="start.Designer.cs">
+      <DependentUpon>start.cs</DependentUpon>
+    </Compile>
+    <Compile Include="1q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1q.Designer.cs">
+      <DependentUpon>1q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2q.Designer.cs">
+      <DependentUpon>2q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="titul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="titul.Designer.cs">
+      <DependentUpon>titul.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="3q.resx">
+      <DependentUpon>3q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4q.resx">
+      <DependentUpon>4q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5q.resx">
+      <DependentUpon>5q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="6q.resx">
+      <DependentUpon>6q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7q.resx">
+      <DependentUpon>7q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8q.resx">
+      <DependentUpon>8q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pass.resx">
+      <DependentUpon>pass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="result.resx">
+      <DependentUpon>result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="start.resx">
+      <DependentUpon>start.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1q.resx">
+      <DependentUpon>1q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2q.resx">
+      <DependentUpon>2q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="titul.resx">
+      <DependentUpon>titul.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
