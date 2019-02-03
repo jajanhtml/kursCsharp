@@ -40,17 +40,19 @@
             // 
             // trackBar1
             // 
+            this.trackBar1.LargeChange = 1;
             this.trackBar1.Location = new System.Drawing.Point(20, 106);
-            this.trackBar1.Maximum = 100;
+            this.trackBar1.Maximum = 2000;
+            this.trackBar1.Minimum = 1500;
             this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(204, 42);
-            this.trackBar1.SmallChange = 5;
+            this.trackBar1.Size = new System.Drawing.Size(204, 45);
             this.trackBar1.TabIndex = 0;
+            this.trackBar1.Value = 1500;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(20, 80);
+            this.label3.Location = new System.Drawing.Point(20, 72);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(204, 31);
             this.label3.TabIndex = 3;
@@ -107,7 +109,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form3";
             this.Text = "Вопрос с ScrollBar";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form3_FormClosing);
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
             this.groupBox1.ResumeLayout(false);

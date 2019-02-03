@@ -60,12 +60,6 @@
     <Compile Include="4q.Designer.cs">
       <DependentUpon>4q.cs</DependentUpon>
     </Compile>
-    <Compile Include="pass.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="pass.Designer.cs">
-      <DependentUpon>pass.cs</DependentUpon>
-    </Compile>
     <Compile Include="Question.cs" />
     <Compile Include="result.cs">
       <SubType>Form</SubType>
@@ -144,9 +138,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="8q.resx">
       <DependentUpon>8q.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pass.resx">
-      <DependentUpon>pass.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="result.resx">
       <DependentUpon>result.cs</DependentUpon>

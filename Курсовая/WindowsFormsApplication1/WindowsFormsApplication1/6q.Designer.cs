@@ -43,7 +43,6 @@
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(198, 79);
             this.checkedListBox1.TabIndex = 0;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // groupBox1
             // 
@@ -95,7 +94,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form7";
             this.Text = "Вопрос с CheckListBox";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form7_FormClosing);
             this.Load += new System.EventHandler(this.Form7_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

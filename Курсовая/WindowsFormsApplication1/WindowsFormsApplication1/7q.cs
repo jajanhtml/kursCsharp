@@ -65,15 +65,6 @@ namespace WindowsFormsApplication1
             button4.Enabled = false;
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox4_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void button5_Click(object sender, EventArgs e)
         {
@@ -89,16 +80,6 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void Form8_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-            //закрытие программы
-            DialogResult result = MessageBox.Show("Вы уверены?", "Потдверждение", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-
-            }    
-        }
+      
     }
 }

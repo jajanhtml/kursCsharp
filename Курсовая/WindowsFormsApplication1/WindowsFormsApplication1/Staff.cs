@@ -31,12 +31,12 @@ namespace WindowsFormsApplication1
         public static void Accept(int i, Form l)
         {   
             //демонстрация диалогового окна
-            DialogResult result = MessageBox.Show("Продолжить?","Потдверждение",MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-                {
+          //  DialogResult result = MessageBox.Show("Продолжить?","Потдверждение",MessageBoxButtons.YesNo);
+          //  if (result == DialogResult.Yes)
+              //  {
                     Staff.nextform(i,l);
                    
-                }    
+              //  }    
         }
         //метод закртия текущей и переход к необходимой форме
         public static void vibor(Form p,Form l)

@@ -41,5 +41,15 @@ namespace WindowsFormsApplication1
             e.Graphics.DrawImage(newImage, 50, 50, 400, 300);
            
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

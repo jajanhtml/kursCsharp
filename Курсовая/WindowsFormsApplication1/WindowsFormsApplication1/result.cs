@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+
 
 namespace WindowsFormsApplication1
 {
@@ -47,14 +49,31 @@ namespace WindowsFormsApplication1
                    dataGridView1.Rows[j].Cells[2].Style.BackColor = Color.Red;
                }
                count++;
-                
+
+
             }
-           
+            string path = @"D:\test.txt";
+            using (StreamWriter sw = new StreamWriter(path, true, Encoding.Default))
+            {
+                for (int j = 0; j <= 15; j++)
+                {      
+                    string value = "Номер вопроса " + (j + 1) + " правельный ответ: " + Question.trueAns[j] + " ответ пользователя: " + Question.polzAns[j];
+                    sw.WriteLine(value);
+                }
+                sw.Close();
+
+            }
+
+           /* using (SaveFileDialog sfd = new SaveFileDialog())
+            {
+                sfd.Filter = "PDF Document (*.pdf)|*.pdf";
+                sfd.FileName = "exportDOCX.pdf";
+                if (sfd.ShowDialog() == DialogResult.OK)
+                {
+                    Export(dataGridView1, sfd.FileName);
+                }
+            }*/
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
     }
 }

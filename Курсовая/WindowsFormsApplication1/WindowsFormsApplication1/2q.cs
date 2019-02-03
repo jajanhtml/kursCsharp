@@ -42,17 +42,7 @@ namespace WindowsFormsApplication1
             Staff.Accept(Form1.i, this);
         }
 
-        private void Form3_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-            //закрытие программы
-            DialogResult result = MessageBox.Show("Вы уверены?", "Потдверждение", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-
-            }    
-        }
+      
     }
         
 }

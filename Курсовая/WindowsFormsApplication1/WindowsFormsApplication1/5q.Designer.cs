@@ -43,7 +43,7 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(187, 98);
+            this.listBox1.Location = new System.Drawing.Point(91, 70);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(201, 147);
             this.listBox1.TabIndex = 0;
@@ -51,7 +51,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(5, 98);
+            this.checkBox1.Location = new System.Drawing.Point(35, 244);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(80, 17);
             this.checkBox1.TabIndex = 1;
@@ -62,7 +62,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(5, 141);
+            this.checkBox2.Location = new System.Drawing.Point(198, 244);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(80, 17);
             this.checkBox2.TabIndex = 2;
@@ -73,7 +73,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(5, 187);
+            this.checkBox3.Location = new System.Drawing.Point(35, 285);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(80, 17);
             this.checkBox3.TabIndex = 3;
@@ -84,7 +84,7 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(5, 228);
+            this.checkBox4.Location = new System.Drawing.Point(198, 285);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(80, 17);
             this.checkBox4.TabIndex = 4;
@@ -110,7 +110,7 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(71, 31);
+            this.label1.Location = new System.Drawing.Point(71, 16);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(238, 51);
             this.label1.TabIndex = 6;
@@ -119,7 +119,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(142, 286);
+            this.button1.Location = new System.Drawing.Point(142, 319);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(102, 21);
             this.button1.TabIndex = 5;
@@ -145,7 +145,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form6";
             this.Text = "Вопрос с CheckBox и Listbox";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form6_FormClosing);
             this.Load += new System.EventHandler(this.Form6_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

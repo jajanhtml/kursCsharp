@@ -57,18 +57,6 @@ namespace WindowsFormsApplication1
 
         }
 
-        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-            //закрытие программы
-            DialogResult result = MessageBox.Show("Вы уверены?", "Потдверждение", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-
-            }    
-
-            
-        }
+      
     }
 }

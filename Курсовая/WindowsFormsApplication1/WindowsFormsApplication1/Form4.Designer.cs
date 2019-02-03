@@ -47,7 +47,7 @@
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(6, 27);
+            this.label1.Location = new System.Drawing.Point(4, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(252, 48);
             this.label1.TabIndex = 1;
@@ -94,7 +94,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form4";
             this.Text = "Вопрос с TextBox";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form4_FormClosing);
             this.Load += new System.EventHandler(this.Form4_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

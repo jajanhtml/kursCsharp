@@ -65,9 +65,9 @@
             this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.Location = new System.Drawing.Point(104, 186);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(293, 89);
+            this.label2.Size = new System.Drawing.Size(293, 55);
             this.label2.TabIndex = 1;
-            this.label2.Text = "По теме \"Оптические системы с петабитыми и терабитными системами передач\"";
+            this.label2.Text = "По теме \"Интеллектуальные мехатронные системы\"";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // label3
@@ -142,17 +142,17 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label10.Location = new System.Drawing.Point(29, 425);
+            this.label10.Location = new System.Drawing.Point(29, 376);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(216, 21);
+            this.label10.Size = new System.Drawing.Size(125, 21);
             this.label10.TabIndex = 9;
-            this.label10.Text = "Руководитель разработки";
+            this.label10.Text = "Руководитель ";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label11.Location = new System.Drawing.Point(29, 480);
+            this.label11.Location = new System.Drawing.Point(29, 427);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(80, 21);
             this.label11.TabIndex = 10;
@@ -162,28 +162,30 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label12.Location = new System.Drawing.Point(352, 425);
+            this.label12.Location = new System.Drawing.Point(352, 376);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(113, 21);
             this.label12.TabIndex = 11;
             this.label12.Text = "С.Р. Гуриков";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label13.Location = new System.Drawing.Point(335, 480);
+            this.label13.Location = new System.Drawing.Point(346, 427);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(130, 21);
+            this.label13.Size = new System.Drawing.Size(119, 21);
             this.label13.TabIndex = 12;
-            this.label13.Text = "В.А. Соловцов";
+            this.label13.Text = "Н.А. Аксенов";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // titul
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(509, 523);
+            this.ClientSize = new System.Drawing.Size(504, 511);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);

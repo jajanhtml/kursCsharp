@@ -75,7 +75,6 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // button5
             // 
@@ -112,7 +111,6 @@
             this.listBox4.Name = "listBox4";
             this.listBox4.Size = new System.Drawing.Size(139, 30);
             this.listBox4.TabIndex = 8;
-            this.listBox4.SelectedIndexChanged += new System.EventHandler(this.listBox4_SelectedIndexChanged);
             // 
             // listBox3
             // 
@@ -195,7 +193,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form8";
             this.Text = "Вопрос с ListBox";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form8_FormClosing);
             this.Load += new System.EventHandler(this.Form8_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

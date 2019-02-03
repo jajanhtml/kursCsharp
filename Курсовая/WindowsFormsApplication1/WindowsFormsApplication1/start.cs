@@ -16,14 +16,7 @@ namespace WindowsFormsApplication1
         public static int i = 1;
         public Form1()
         {
-          
-
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -43,27 +36,7 @@ namespace WindowsFormsApplication1
             tit.Show();       
         }
 
-        private void toolStripComboBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_MouseClick(object sender, MouseEventArgs e)
-        {
-           
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-            
-           
-        }
-
-        private void Form1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+     
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -75,16 +48,6 @@ namespace WindowsFormsApplication1
             System.Diagnostics.Process.Start(Directory.GetCurrentDirectory() + @"\..\..\..\..\text1.pdf");
         }
 
-        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
-        {
-
-            //закрытие программы
-            DialogResult result = MessageBox.Show("Вы уверены?", "Потдверждение", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-
-            }    
-        }
+      
     }
 }

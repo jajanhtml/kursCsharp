@@ -63,21 +63,8 @@ namespace WindowsFormsApplication1
             Question.checkedlistboxq(label1, checkedListBox1, Form1.i);
         }
 
-        private void Form7_FormClosing(object sender, FormClosingEventArgs e)
-        {
+      
 
-            //закрытие программы
-            DialogResult result = MessageBox.Show("Вы уверены?", "Потдверждение", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-
-            }    
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }

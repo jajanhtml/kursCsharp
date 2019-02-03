@@ -50,21 +50,7 @@ namespace WindowsFormsApplication1
             Question.radiobuttonq(label1, radioButton1, radioButton2, radioButton3, radioButton4, Form1.i);
         }
 
-        private void Form9_FormClosing(object sender, FormClosingEventArgs e)
-        {
+     
 
-            //закрытие программы
-            DialogResult result = MessageBox.Show("Вы уверены?", "Потдверждение", MessageBoxButtons.YesNo);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-
-            }    
-        }
-
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
